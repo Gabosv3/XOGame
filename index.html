@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/Style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <main id="game-container">
+      <!-- Sección del botón de inicio -->
+      <section class="center">
+        <img
+          src="assets/img/avatars-000402851007-u5fdgg-original.png"
+          alt="Avatar"
+          onclick="Funcionbotonplay()"
+        />
+        <h3>Play</h3>
+      </section>
+
+      <!-- Sección para los jugadores -->
+      <section id="player-selection">
+        <article class="player" onclick="funcionboton()">
+          <h3>Jugador 1 (X)</h3>
+        </article>
+        <article class="player" onclick="funcionboton1()">
+          <h3>Jugador 2 (O)</h3>
+        </article>
+      </section>
+    </main>
+     <!-- Sección javascript -->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
+    <script src="assets/js/Javascript.js"></script>
+  </body>
+</html>

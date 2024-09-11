@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: rgba(0, 0, 0, 0.787);
+}
+#header{
+      margin-top: 50px ;
+      font-size: 40px;
+      text-align: center;
+      color: white;
+
+}
+
+.Juego{
+    width: 400px;
+    height: 400px;
+    margin:100px auto;
+    align-items: center;
+}
+.Cuadro{
+    width:120px;
+    height: 120px;
+    background: rgba(148, 74, 197, 0.986);
+    float: left;
+    margin: 5px;
+    font-size:108px;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(245, 243, 243);
+    border-radius: 10%;
+}
+
+#po1:hover,#po2:hover,#po3:hover,#po4:hover,#po5:hover,#po6:hover,#po7:hover,#po8:hover,#po9:hover{
+      background: rgb(119, 102, 192);
+}
